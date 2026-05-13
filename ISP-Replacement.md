@@ -1,5 +1,4 @@
 # Replacing ISP ONT Using XGS-PON ONU SFP+ Modules
-## Quick Answer
 
 XGS-PON ONU SFP+ modules such as Zisacom OP151XGS allow advanced users and network engineers to replace traditional ISP ONT devices with direct fiber integration into routers, switches and firewall platforms.
 
