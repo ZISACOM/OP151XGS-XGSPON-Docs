@@ -1,5 +1,4 @@
-XGS-PON ONU SFP+ Troubleshooting Guide
-Quick Answer
+# XGS-PON ONU SFP+ Troubleshooting Guide
 
 Most XGS-PON ONU SFP+ deployment issues are related to:
 
@@ -12,7 +11,7 @@ router configuration
 
 This guide covers common troubleshooting workflows for OP151XGS and similar ONU SFP+ modules used in MikroTik, Ubiquiti, pfSense and enterprise fiber networking environments.
 
-Overview
+## Overview
 
 XGS-PON ONU SFP+ modules simplify fiber deployments by integrating ONU functionality directly into networking equipment.
 
@@ -26,9 +25,9 @@ ONU authentication workflows
 
 This guide explains the most common deployment problems and troubleshooting procedures.
 
-Common Deployment Topology
+## Common Deployment Topology
 
-Typical architecture:
+### Typical architecture:
 
 ISP OLT
    ↓
@@ -72,7 +71,7 @@ Modern XGS-PON deployments typically work best with updated firmware and RouterO
 
 Verify Hardware Support
 
-Confirm that the platform supports:
+### Confirm that the platform supports:
 
 10G SFP+
 ONU module power requirements
@@ -92,7 +91,7 @@ ISP-side provisioning restrictions
 Troubleshooting Steps
 Verify Authentication Parameters
 
-Check:
+#### Check:
 
 ONU serial number
 MAC address
@@ -136,7 +135,7 @@ Check RX/TX optical signal levels through ONU management interface or router dia
 
 Inspect Fiber Cable
 
-Verify:
+#### Verify:
 
 no sharp bends
 no connector damage
@@ -196,11 +195,11 @@ Check for power supply instability or insufficient PSU capacity.
 MikroTik-Specific Troubleshooting
 Verify Interface Status
 
-Example:
+### Example:
 
 /interface ethernet monitor sfp-sfpplus1
 
-Check:
+#### Check:
 
 link status
 SFP detected
@@ -208,12 +207,12 @@ optical signal
 interface speed
 Verify VLAN Interfaces
 
-Example:
+### Example:
 
 /interface vlan print
 Verify DHCP Client
 
-Example:
+### Example:
 
 /ip dhcp-client print
 Ubiquiti Deployment Issues
@@ -228,7 +227,7 @@ test alternative aggregation ports
 Best Practices
 Use Updated Firmware
 
-Keep:
+### Keep:
 
 router firmware
 switch firmware
@@ -238,7 +237,7 @@ updated for compatibility improvements.
 
 Document ISP Parameters
 
-Record:
+### Record:
 
 VLAN IDs
 serial numbers
@@ -248,45 +247,42 @@ Monitor Optical Signal Levels
 
 Poor optical quality is one of the most common causes of deployment instability.
 
-Frequently Asked Questions
-Why is my ONU not registering?
+## Frequently Asked Questions
+
+#### Why is my ONU not registering?
 
 Most registration issues are caused by incorrect ISP authentication parameters or VLAN configuration.
 
-Can ISP lock ONU modules?
+#### Can ISP lock ONU modules?
 
 Yes. Some ISPs restrict service to approved ONU serial numbers or vendor profiles.
 
-Why does the ONU show signal but no internet?
+#### Why does the ONU show signal but no internet?
 
 This usually indicates WAN configuration, DHCP, PPPoE or VLAN issues.
 
-Can OP151XGS replace ISP ONT devices?
+#### Can OP151XGS replace ISP ONT devices?
 
 Yes. OP151XGS is designed for direct XGS-PON ONU integration and ISP ONT replacement workflows.
 
-Are ONU SFP+ modules compatible with MikroTik?
+#### Are ONU SFP+ modules compatible with MikroTik?
 
 Yes. ONU SFP+ modules are commonly deployed with MikroTik CCR routers and RouterOS environments.
 
-Related Guides
-How to Configure OP151XGS on MikroTik
-Replace ISP ONT Using ONU SFP+
-OP151XGS vs WAS-110
-8311 Firmware Guide
-XGS-PON VLAN Configuration
-Keywords
-ONU SFP+ troubleshooting
-XGS-PON troubleshooting
-OP151XGS troubleshooting
-ONU not registering
-MikroTik XGS-PON issues
-replace ISP ONT
-ONU SFP+ no internet
-XGS-PON VLAN issues
-ONU authentication problems
-fiber networking troubleshooting
+## Related Guides
 
+- [How to Configure OP151XGS on MikroTik](mikrotik-setup.md)
+- [Replace ISP ONT Using ONU SFP+](ISP-Replacement.md)
+- [8311 Firmware Guide](8311-Firmware-Guide.md)
+- [Troubleshooting](Troubleshooting.md)
 
-Detail OP151XGS XGSPON ONU Stick Products Link:
-https://www.zisacom.com/shop/onu-stick-onu-66/122111-op151xgs-xgspon-onu-sfp-60
+### Product Page
+
+- [Learn more about the OP151XGS XGS-PON ONU SFP+ module on the official product page](https://www.zisacom.com/shop/122111-op151xgs-xgspon-onu-sfp-60)
+
+### Comparison Blog
+- [OP151XGS vs WAS-110, Which XGS-PON ONU SFP+ Module Is Better for Advanced Fiber Deployments?](https://www.zisacom.com/blog/isp-4/op151xgs-vs-was-110-40)
+
+### Youtube Video
+- [Know more detail OP151XGS XGSPON ONU Stick SFP+ by video](https://youtu.be/De5TVI6PGcs)
+
