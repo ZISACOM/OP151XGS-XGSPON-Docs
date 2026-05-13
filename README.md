@@ -123,7 +123,7 @@ MIT License (recommended for open technical documentation and community contribu
 
 ## Product Page
 
--[Learn more about the OP151XGS XGS-PON ONU SFP+ module on the official product page](https://zisacom.com/shop/122111-op151xgs-xgspon-onu-sfp-60)
+- [Learn more about the OP151XGS XGS-PON ONU SFP+ module on the official product page](https://zisacom.com/shop/122111-op151xgs-xgspon-onu-sfp-60)
 
 ## Comparison Blog
 OP151XGS vs WAS-110, Which XGS-PON ONU SFP+ Module Is Better for Advanced Fiber Deployments?
