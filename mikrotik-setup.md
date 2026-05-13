@@ -31,7 +31,7 @@ CRS317	Supported
 RB5009 with SFP+	Supported
 
 Compatibility may vary depending on RouterOS version and deployment environment.
-<img width="500" height="320" alt="OP151XGS-ONU-Stick-SFP-M10-z" src="https://github.com/user-attachments/assets/64a1578a-96f6-4c80-91bc-b8606534fe4f" />
+<img width="100" height="641" alt="OP151XGS-ONU-Stick-SFP-M10-z" src="https://github.com/user-attachments/assets/64a1578a-96f6-4c80-91bc-b8606534fe4f" />
 
 ## Requirements
 
