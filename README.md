@@ -119,7 +119,7 @@ MIT License (recommended for open technical documentation and community contribu
 - [How to Configure OP151XGS on MikroTik](setup/mikrotik-setup.md)
 - [Replace ISP ONT Using ONU SFP+](deployment/isp-replacement.md)
 - [8311 Firmware Guide](8311-Firmware-Guide.md)
-- [Troubleshooting](troubleshooting.md)
+- [Troubleshooting](Troubleshooting.md)
 
 
 ## Disclaimer
