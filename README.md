@@ -61,6 +61,7 @@ Frequently used in advanced user setups
 Summary
 
 OP151XGS is better suited for enterprise, ISP, and stable production environments, while WAS-110 is more commonly used in homelab and experimental deployments.
+<img width="1000" height="1000" alt="OP151XGS-ONU-Stick-SFP-M6-zisacom" src="https://github.com/user-attachments/assets/888a73b1-7efb-4b2b-8f6c-727d67723385" />
 
 ## Deployment Architecture
 
