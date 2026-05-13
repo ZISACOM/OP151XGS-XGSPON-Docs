@@ -181,5 +181,16 @@ Many ISPs require VLAN tagging for WAN services. VLAN requirements depend on the
 
 Yes. OP151XGS supports 8311 firmware and advanced management features.
 
-Related Guides
+## Related Guides
+
+How to Configure OP151XGS on MikroTik
+Replace ISP ONT Using ONU SFP+
+8311 Firmware Guide
+Troubleshooting
+Product Page
+Learn more about the OP151XGS XGS-PON ONU SFP+ module on the official product page
+Comparison Blog
+OP151XGS vs WAS-110, Which XGS-PON ONU SFP+ Module Is Better for Advanced Fiber Deployments?
+Youtube Video
+Know more detail OP151XGS XGSPON ONU Stick SFP+ by video
 
