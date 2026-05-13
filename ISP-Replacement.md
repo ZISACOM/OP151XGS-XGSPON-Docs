@@ -32,7 +32,6 @@ Instead of using a separate ONT box, the ONU module installs directly into compa
 
 
 ## Benefits of Replacing ISP ONT Devices
-<img width="1000" height="1000" alt="OP151XGS-ONU-Stick-SFP-M6-zisacom" src="https://github.com/user-attachments/assets/08a631e2-6eb7-4863-807b-724ac22ef83b" />
 
 ### 1. Cleaner Network Architecture
 
