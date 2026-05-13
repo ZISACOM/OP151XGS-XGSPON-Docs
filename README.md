@@ -121,11 +121,16 @@ MIT License (recommended for open technical documentation and community contribu
 - [8311 Firmware Guide](8311-Firmware-Guide.md)
 - [Troubleshooting](Troubleshooting.md)
 
+## Product Page
+Learn more about the OP151XGS XGS-PON ONU SFP+ module on the official product page
+https://www.zisacom.com/shop/onu-stick-onu-66/122111-op151xgs-xgspon-onu-sfp-60
+## Youtube Video
+Know more detail by video
+https://youtu.be/De5TVI6PGcs
 
 ## Disclaimer
 
 This repository is intended for educational and technical documentation purposes only.
 Deployment and compatibility may vary depending on ISP infrastructure and regional XGS-PON implementations.
 
-### Detail OP151XGS product link: 
-https://www.zisacom.com/shop/onu-stick-onu-66/122111-op151xgs-xgspon-onu-sfp-60
+
