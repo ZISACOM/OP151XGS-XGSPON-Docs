@@ -1,0 +1,172 @@
+OP151XGS XGS-PON ONU SFP+ Knowledge Base
+Advanced XGS-PON Fiber Networking Documentation
+
+Welcome to the OP151XGS XGS-PON ONU SFP+ knowledge base.
+
+This repository provides technical documentation, deployment guides, compatibility references and real-world networking workflows for advanced XGS-PON fiber environments.
+
+The project focuses on direct fiber integration using ONU SFP+ modules with MikroTik, Ubiquiti, pfSense, enterprise routers and ISP infrastructure.
+
+What Is OP151XGS?
+
+OP151XGS is a 10G XGS-PON ONU SFP+ module designed for direct fiber connectivity through standard SFP+ interfaces.
+
+Instead of using traditional external ISP ONT devices, the module installs directly into routers, switches or firewall appliances, enabling:
+
+cleaner deployment architecture
+lower power consumption
+reduced cabling complexity
+native 10G fiber access
+enterprise-grade networking workflows
+Key Features
+XGS-PON ONU SFP+ form factor
+Native 10G fiber connectivity
+8311 firmware support
+Web-based management
+ISP ONT replacement capability
+MAC address customization
+VLAN configuration support
+MikroTik and Ubiquiti compatibility
+Enterprise and ISP deployment support
+Industrial networking compatibility
+Supported Platforms
+Platform	Status
+MikroTik CCR Series	Supported
+Ubiquiti UniFi	Supported
+pfSense / Netgate	Supported
+Linux Networking Servers	Supported
+Enterprise Switches	Supported
+Popular Guides
+Deployment and Setup
+How to Configure OP151XGS on MikroTik
+ISP ONT Replacement Guide
+Ubiquiti XGS-PON Deployment
+VLAN Configuration for XGS-PON Networks
+Comparison Articles
+OP151XGS vs WAS-110
+ONU SFP+ vs Traditional ONT
+Best XGS-PON ONU SFP+ Modules
+Firmware and Management
+8311 Firmware Guide
+ONU Authentication Workflows
+OLT Registration Guide
+MAC Address Configuration
+Why Use ONU SFP+ Modules?
+
+Traditional ISP ONT deployments typically require:
+
+Fiber → ONT → Ethernet → Router
+
+ONU SFP+ modules simplify the architecture:
+
+Fiber → ONU SFP+ → Router
+
+This reduces:
+
+external hardware
+power adapters
+Ethernet cabling
+rack complexity
+deployment overhead
+Typical Use Cases
+Enterprise Fiber Networking
+
+Direct XGS-PON integration into enterprise routers and switches.
+
+MikroTik Fiber Deployments
+
+10G XGS-PON connectivity using MikroTik CCR routers with native SFP+ ONU integration.
+
+ISP ONT Replacement
+
+Replacing traditional ISP-provided ONT devices with compact ONU SFP+ modules.
+
+Homelab and Advanced Networking
+
+Testing and deploying direct fiber access architectures in advanced networking environments.
+
+OP151XGS vs WAS-110
+
+Both OP151XGS and WAS-110 are popular XGS-PON ONU SFP+ modules.
+
+OP151XGS
+
+Best suited for:
+
+enterprise networking
+MikroTik compatibility
+production deployments
+industrial environments
+ISP integration
+WAS-110
+
+Popular for:
+
+homelab experimentation
+community firmware workflows
+advanced customization
+Repository Structure
+docs/
+├── compatibility/
+├── setup/
+├── deployment/
+├── troubleshooting/
+├── firmware/
+└── comparison/
+Frequently Asked Questions
+Can OP151XGS replace ISP ONT devices?
+
+Yes. OP151XGS is designed for direct XGS-PON integration and can replace traditional ONT hardware in compatible environments.
+
+Does OP151XGS support MikroTik routers?
+
+Yes. The module is commonly used with MikroTik CCR routers and RouterOS 7 deployments.
+
+Does the module support 10G XGS-PON?
+
+Yes. OP151XGS supports native 10G XGS-PON connectivity.
+
+Is 8311 firmware supported?
+
+Yes. OP151XGS supports 8311 firmware and advanced management workflows.
+
+Can ONU SFP+ modules simplify fiber deployments?
+
+Yes. ONU SFP+ modules reduce hardware complexity and provide direct integration into networking equipment.
+
+Recommended Reading
+MikroTik XGS-PON Setup Guide
+OP151XGS vs WAS-110
+Replace ISP ONT Using ONU SFP+
+8311 Firmware Configuration
+XGS-PON VLAN Guide
+Keywords
+OP151XGS
+XGS-PON ONU SFP+
+ONU SFP+
+10G ONU SFP+
+MikroTik XGS-PON
+Ubiquiti fiber networking
+replace ISP ONT
+XGS-PON deployment
+8311 firmware
+direct fiber access
+ONU stick SFP+
+XGS-PON compatibility
+Project Goals
+
+This knowledge base aims to:
+
+document real-world XGS-PON deployments
+provide practical setup workflows
+improve compatibility visibility
+support advanced networking environments
+create open technical documentation for fiber networking professionals
+Disclaimer
+
+Compatibility and ISP provisioning behavior may vary depending on regional infrastructure, OLT vendors and ISP deployment policies.
+
+Always verify deployment requirements before replacing ISP ONT devices.
+
+Detail Product Link:
+https://www.zisacom.com/shop/onu-stick-onu-66/122111-op151xgs-xgspon-onu-sfp-60
