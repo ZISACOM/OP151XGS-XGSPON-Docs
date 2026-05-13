@@ -60,7 +60,9 @@ VLAN tagging
 ONU provisioning workflows
 
 This is useful for advanced ISP deployment scenarios.
+
 <img width="838" height="415" alt="OP151XGS-P0-Z" src="https://github.com/user-attachments/assets/7a92028c-71ad-4091-b7d2-5cfcc0391cc0" />
+
 
 
 ### 3. MikroTik and Enterprise Networking
