@@ -10,6 +10,7 @@ SFP+ compatibility
 router configuration
 
 This guide covers common troubleshooting workflows for OP151XGS and similar ONU SFP+ modules used in MikroTik, Ubiquiti, pfSense and enterprise fiber networking environments.
+<img width="987" height="401" alt="OP151XGS-P1-Z" src="https://github.com/user-attachments/assets/4675be56-c7cb-455b-9efa-3e00c3c8d2ac" />
 
 ## Overview
 
