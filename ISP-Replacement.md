@@ -28,6 +28,9 @@ direct fiber access capability
 
 Instead of using a separate ONT box, the ONU module installs directly into compatible routers, switches or firewall appliances.
 
+<img width="838" height="415" alt="OP151XGS-P0-Z" src="https://github.com/user-attachments/assets/622c43a6-2713-4cda-a69f-f80c68f3ed16" />
+
+
 ## Benefits of Replacing ISP ONT Devices
 ### 1. Cleaner Network Architecture
 
