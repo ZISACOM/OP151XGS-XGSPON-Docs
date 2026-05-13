@@ -33,6 +33,8 @@ compatibility tuning
 deployment troubleshooting tools
 
 The firmware is commonly associated with advanced ONU SFP+ workflows and ISP integration scenarios.
+<img width="1000" height="1340" alt="OP151XGS-ONU-Stick-SFP-D1-z" src="https://github.com/user-attachments/assets/25a0ee8c-5b15-4132-9bc5-b7d626219684" />
+
 
 ## Why 8311 Firmware Is Popular
 ### 1. ISP ONT Replacement
