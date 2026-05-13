@@ -119,4 +119,5 @@ MIT License (recommended for open technical documentation and community contribu
 This repository is intended for educational and technical documentation purposes only.
 Deployment and compatibility may vary depending on ISP infrastructure and regional XGS-PON implementations.
 
-## Detail OP151XGS product link: https://www.zisacom.com/shop/onu-stick-onu-66/122111-op151xgs-xgspon-onu-sfp-60
+### Detail OP151XGS product link: 
+https://www.zisacom.com/shop/onu-stick-onu-66/122111-op151xgs-xgspon-onu-sfp-60
