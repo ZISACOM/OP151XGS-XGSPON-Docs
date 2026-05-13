@@ -1,7 +1,7 @@
 # Replacing ISP ONT Using XGS-PON ONU SFP+ Modules
 ## Quick Answer
 
-XGS-PON ONU SFP+ modules such as OP151XGS allow advanced users and network engineers to replace traditional ISP ONT devices with direct fiber integration into routers, switches and firewall platforms.
+XGS-PON ONU SFP+ modules such as Zisacom OP151XGS allow advanced users and network engineers to replace traditional ISP ONT devices with direct fiber integration into routers, switches and firewall platforms.
 
 This enables cleaner deployments, reduced power consumption and native 10G fiber connectivity through standard SFP+ interfaces.
 
@@ -75,7 +75,7 @@ Linux Servers	Advanced networking
 Managed Switches	Fiber aggregation 
 OP151XGS Deployment Advantages
 
-## OP151XGS is designed for advanced XGS-PON deployments requiring:
+## Zisacom OP151XGS is designed for advanced XGS-PON deployments requiring:
 
 direct fiber integration
 enterprise compatibility
@@ -178,7 +178,7 @@ fiber polarity
 
 Yes. ONU SFP+ modules are designed to replace traditional external ONT hardware in compatible XGS-PON environments.
 
-### Does OP151XGS support direct router integration?
+### Does Zisacom OP151XGS support direct router integration?
 
 Yes. OP151XGS installs directly into compatible SFP+ interfaces on routers, switches and firewall platforms.
 
@@ -203,7 +203,7 @@ Yes. ONU SFP+ modules are commonly used in enterprise, ISP and advanced networki
 
 ### Product Page
 
-- [Learn more about the OP151XGS XGS-PON ONU SFP+ module on the official product page](https://www.zisacom.com/shop/122111-op151xgs-xgspon-onu-sfp-60)
+- [Learn more about the Zisacom OP151XGS XGS-PON ONU SFP+ module on the official product page](https://www.zisacom.com/shop/122111-op151xgs-xgspon-onu-sfp-60)
 
 ### Comparison Blog
 - [OP151XGS vs WAS-110, Which XGS-PON ONU SFP+ Module Is Better for Advanced Fiber Deployments?](https://www.zisacom.com/blog/isp-4/op151xgs-vs-was-110-40)
