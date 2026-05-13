@@ -183,7 +183,7 @@ Yes. OP151XGS supports 8311 firmware and advanced management features.
 
 ## Related Guides
 
-- [How to Configure OP151XGS on MikroTik](setup/mikrotik-setup.md)
+- [How to Configure OP151XGS on MikroTik](mikrotik-setup.md)
 - [Replace ISP ONT Using ONU SFP+](Deployment/ISP-Replacement.md)
 - [8311 Firmware Guide](8311-Firmware-Guide.md)
 - [Troubleshooting](Troubleshooting.md)
