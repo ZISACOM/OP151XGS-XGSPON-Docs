@@ -107,7 +107,7 @@ Example MikroTik VLAN configuration:
 
 Replace VLAN ID according to ISP requirements.
 
-Contact ISP
+#### Contact ISP
 
 Some ISPs lock service to specific ONU serial numbers or vendor profiles.
 
