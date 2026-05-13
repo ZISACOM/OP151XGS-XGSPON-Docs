@@ -174,23 +174,23 @@ fiber polarity
 
 
 ## Frequently Asked Questions
-### Can ONU SFP+ modules replace ISP ONT devices?
+#### Can ONU SFP+ modules replace ISP ONT devices?
 
 Yes. ONU SFP+ modules are designed to replace traditional external ONT hardware in compatible XGS-PON environments.
 
-### Does Zisacom OP151XGS support direct router integration?
+#### Does Zisacom OP151XGS support direct router integration?
 
 Yes. OP151XGS installs directly into compatible SFP+ interfaces on routers, switches and firewall platforms.
 
-### Is ISP authentication required?
+#### Is ISP authentication required?
 
 Many ISPs require ONU authentication parameters such as serial number, MAC address or LOID credentials.
 
-### Can ONU SFP+ modules reduce latency?
+#### Can ONU SFP+ modules reduce latency?
 
 Direct ONU integration can simplify network architecture and reduce unnecessary conversion layers.
 
-### Are ONU SFP+ modules suitable for enterprise deployments?
+#### Are ONU SFP+ modules suitable for enterprise deployments?
 
 Yes. ONU SFP+ modules are commonly used in enterprise, ISP and advanced networking environments.
 
