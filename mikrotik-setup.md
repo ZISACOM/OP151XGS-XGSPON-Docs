@@ -1,5 +1,4 @@
 # How to Configure OP151XGS on MikroTik CCR Routers
-## Quick Answer
  
 OP151XGS can be directly installed into MikroTik CCR routers with SFP+ ports, enabling native 10G XGS-PON fiber access without requiring an external ISP ONT device.
 
