@@ -32,6 +32,8 @@ Instead of using a separate ONT box, the ONU module installs directly into compa
 
 
 ## Benefits of Replacing ISP ONT Devices
+<img width="1000" height="1000" alt="OP151XGS-ONU-Stick-SFP-M6-zisacom" src="https://github.com/user-attachments/assets/08a631e2-6eb7-4863-807b-724ac22ef83b" />
+
 ### 1. Cleaner Network Architecture
 
 #### Traditional deployment:
@@ -76,6 +78,7 @@ pfSense / Netgate	Firewall and security
 Linux Servers	Advanced networking
 Managed Switches	Fiber aggregation 
 OP151XGS Deployment Advantages
+<img width="1000" height="1000" alt="OP151XGS-ONU-Stick-SFP-M6-zisacom" src="https://github.com/user-attachments/assets/9202b36d-4ca2-4eb9-87bd-f79a74108d73" />
 
 ## Zisacom OP151XGS is designed for advanced XGS-PON deployments requiring:
 
