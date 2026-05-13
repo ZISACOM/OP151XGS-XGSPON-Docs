@@ -1,11 +1,11 @@
-How to Configure OP151XGS on MikroTik CCR Routers
-Quick Answer
-
+# How to Configure OP151XGS on MikroTik CCR Routers
+## Quick Answer
+ 
 OP151XGS can be directly installed into MikroTik CCR routers with SFP+ ports, enabling native 10G XGS-PON fiber access without requiring an external ISP ONT device.
 
 The module supports advanced ISP authentication workflows, VLAN configuration and direct integration with MikroTik RouterOS environments.
 
-Overview
+## Overview
 
 OP151XGS is a 10G XGS-PON ONU SFP+ module designed for direct fiber integration into MikroTik routers and enterprise networking platforms.
 
@@ -18,7 +18,7 @@ deployment latency
 
 The module is commonly used with MikroTik CCR series routers for advanced fiber networking and ISP ONT replacement scenarios.
 
-Supported MikroTik Platforms
+## Supported MikroTik Platforms
 
 The following MikroTik platforms are commonly used with OP151XGS:
 
@@ -31,8 +31,9 @@ CRS317	Supported
 RB5009 with SFP+	Supported
 
 Compatibility may vary depending on RouterOS version and deployment environment.
+<img width="1000" height="641" alt="OP151XGS-ONU-Stick-SFP-M10-z" src="https://github.com/user-attachments/assets/64a1578a-96f6-4c80-91bc-b8606534fe4f" />
 
-Requirements
+## Requirements
 
 Before deployment, ensure the following requirements are met:
 
@@ -43,24 +44,25 @@ Active XGS-PON ISP service
 RouterOS 7 recommended
 ISP authentication information (if required)
 
-Some ISPs may require:
+### Some ISPs may require:
 
 Serial number authentication
 LOID authentication
 MAC address registration
 VLAN tagging
 Physical Installation
-Step 1: Insert the ONU Module
+
+#### Step 1: Insert the ONU Module
 
 Insert the OP151XGS module into the MikroTik SFP+ port while the device is powered off or according to MikroTik hot-plug guidelines.
 
-Step 2: Connect Fiber Cable
+#### Step 2: Connect Fiber Cable
 
 Connect the SC/APC fiber connector to the module.
 
 Ensure proper optical cleanliness and avoid excessive bend radius on fiber cables.
 
-Step 3: Verify SFP+ Detection
+#### Step 3: Verify SFP+ Detection
 
 After booting RouterOS, verify that the module is detected:
 
@@ -75,7 +77,7 @@ Check optical link status:
 
 /interface ethernet monitor sfp-sfpplus1
 
-Verify:
+#### Verify:
 
 link status
 SFP presence
@@ -93,7 +95,7 @@ Replace VLAN ID according to ISP requirements.
 
 Configure DHCP Client
 
-Example:
+#### Example:
 
 /ip dhcp-client add interface=wan-vlan
 ISP Authentication
@@ -107,7 +109,7 @@ vendor-specific registration
 
 Authentication workflows vary between ISPs and OLT vendors.
 
-OP151XGS Advantages on MikroTik
+## OP151XGS Advantages on MikroTik
 
 Compared with traditional ONT deployments, OP151XGS provides:
 
@@ -120,7 +122,7 @@ simplified cable management
 
 The compact SFP+ form factor is particularly useful in enterprise and high-density networking environments.
 
-Typical Deployment Topology
+## Typical Deployment Topology
 ISP OLT
    ↓
 OP151XGS ONU SFP+
@@ -134,7 +136,7 @@ This architecture removes the need for an external ONT device.
 Troubleshooting
 ONU Not Detected
 
-Verify:
+#### Verify:
 
 SFP+ compatibility
 RouterOS version
@@ -142,7 +144,7 @@ module seating
 optical signal presence
 No Internet Connectivity
 
-Check:
+#### Check:
 
 VLAN configuration
 ISP authentication
@@ -150,50 +152,34 @@ DHCP or PPPoE settings
 ONU registration status
 Optical Signal Issues
 
-Inspect:
+#### Inspect:
 
 SC/APC connector cleanliness
 fiber polarity
 bend radius
 optical attenuation
-Frequently Asked Questions
-Can OP151XGS replace ISP ONT devices?
+
+
+## Frequently Asked Questions
+### Can OP151XGS replace ISP ONT devices?
 
 Yes. OP151XGS is designed for direct XGS-PON integration and can replace traditional ISP ONT hardware in compatible environments.
 
-Does OP151XGS work with MikroTik CCR2004?
+### Does OP151XGS work with MikroTik CCR2004?
 
 Yes. CCR2004 is commonly used with OP151XGS for 10G fiber deployments.
 
-Does OP151XGS support RouterOS 7?
+### Does OP151XGS support RouterOS 7?
 
 Yes. RouterOS 7 is recommended for modern XGS-PON deployments.
 
-Is VLAN configuration required?
+### Is VLAN configuration required?
 
 Many ISPs require VLAN tagging for WAN services. VLAN requirements depend on the ISP configuration.
 
-Does the module support 8311 firmware?
+### Does the module support 8311 firmware?
 
 Yes. OP151XGS supports 8311 firmware and advanced management features.
 
 Related Guides
-OP151XGS vs WAS-110
-ISP ONT Replacement Guide
-8311 Firmware Guide
-Ubiquiti XGS-PON Setup
-VLAN Configuration for XGS-PON Networks
-Keywords
-MikroTik XGS-PON
-ONU SFP+ MikroTik
-OP151XGS MikroTik
-XGS-PON ONU SFP+
-replace ISP ONT
-10G fiber MikroTik
-RouterOS XGS-PON
-ONU stick SFP+
-MikroTik fiber networking
-XGS-PON deployment guide
 
-Detail Products link:
-https://www.zisacom.com/shop/onu-stick-onu-66/122111-op151xgs-xgspon-onu-sfp-60
